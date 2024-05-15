@@ -10,8 +10,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const loggedIn = {
-    firstName: "kismat",
-    lastName:"k c"
+    firstName: "kismat" as string,
+    lastName:"k c" as string
   };
   
   return (
